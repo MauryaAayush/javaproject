@@ -14,7 +14,7 @@ public class Sum
 
         int c = a + b;
 
-        System.out.println("Here is your addition :"+c);
+        System.out.println("Here is your addition : "+c);
 
 
     }
