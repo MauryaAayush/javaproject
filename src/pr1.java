@@ -1,9 +1,4 @@
-
-import java.sql.SQLOutput;
-import java.time.LocalDate;
-import java.util.Date;
 import java.util.Scanner;
-
 public class pr1 {
     public static void main(String [] args) {
         System.out.println("This is about me");
@@ -11,28 +6,36 @@ public class pr1 {
 
         System.out.print("Enter your name : ");
         String name = input.nextLine();
-        System.out.println(name);
 
-        System.out.println("Enter your age");
+        System.out.print("Enter your age : ");
         byte age = input.nextByte();
 
-        System.out.println("Enter your DOB");
+        System.out.print("Enter your DOB : ");
         String DOB = input.next();
 
-        System.out.println("Enter your bloodgroup");
-        String bloodgroup = input.next();
+        System.out.print("Enter your bloodgroup : ");
+        String bloodgroup = input.nextLine();
+        bloodgroup = input.nextLine();
 
-        System.out.println("Enter your Contact");
-        double Contact = input.nextDouble();
+        System.out.print("Enter your Contact : ");
+        long Contact = input.nextLong();
 
-        System.out.println("Enter your Address");
-        String Address = input.nextLine();
+        System.out.print("Enter your Add : ");
+        String Add = input.nextLine();
+        Add = input.nextLine();
 
+        System.out.print("Enter your School : ");
+        String School = input.nextLine();
 
+        System.out.print("Enter your Hobby : ");
+        String Hobby = input.nextLine();
 
+        System.out.print("Enter your percentage : ");
+        Float percentage = input.nextFloat();
 
-
-       // System.out.println("my age is "+age+"hai"+name+".");
+        System.out.println("My name is "+name+" and i am "+age+" years old .My date of birth is "+DOB+". Here is my contact "
+        + Contact +". Now here is my address" + Add + ". I was studying in " + School + " and my hobby is "
+        + Hobby + " and i got " + percentage + "% in my 12th class");
 
     }
 }
