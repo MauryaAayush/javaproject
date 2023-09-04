@@ -10,9 +10,9 @@ public class Formula3 {
         short a,b;
 
         System.out.print("Enter the value (A) : ");
-        a = input.nextByte();
+        a =input.nextShort();
         System.out.print("Enter the value (B) : ");
-        b = input.nextByte();
+        b = input.nextShort();
 
         int c = (a * a * a) + (3 * a * a * b) + (3 * a * b * b) + (b * b * b);
 

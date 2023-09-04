@@ -7,12 +7,11 @@ public class Formula1 {
         Scanner input = new Scanner(System.in);
         //("Here is a program of (a+b"^2);
 
-        short a,b;
 
         System.out.print("Enter the value (A) : ");
-        a = input.nextByte();
+        short a= input.nextShort();
         System.out.print("Enter the value (B) : ");
-        b = input.nextByte();
+        short b = input.nextShort();
 
         int c = (a * a) + (2*a*b) + (b * b);
 
