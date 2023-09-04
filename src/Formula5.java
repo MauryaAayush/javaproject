@@ -16,7 +16,7 @@ public class Formula5 {
         System.out.print("Enter the value (Z) : ");
         z = input.nextShort();
 
-        int c = (x*x*x) + (3*x*x*y) + (3*x*y*y) + (y*y*y);
+        int c = (x*x*x)+(3*x*x*y)+(3*x*y*y)+(y*y*y)+(3*x*x*z)+(6*x*y*z)+(3*y*y*z)+(3*x*z*z)+(3*y*z*z)+(z*z*z);
 
         System.out.println("Here is (a + b + c)^3 : " + c);
 
