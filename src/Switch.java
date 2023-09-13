@@ -9,7 +9,8 @@ public class Switch {
         System.out.println("Enter your number : ");
          Month = input.nextShort();
 
-        switch (Month) {
+        switch (Month)
+        {
             case 1 -> System.out.println("January");
             case 2 -> System.out.println("February");
             case 3 -> System.out.println("March");
