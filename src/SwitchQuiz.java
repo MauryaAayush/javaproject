@@ -26,7 +26,7 @@ public class SwitchQuiz {
                 char ans2 = input.next().charAt(0);
                 switch (ans2)
                 {
-                    case 'a', 'd':
+                    case 'a', 'd', 'c':
                         System.out.println("This is a wrong Answer");break;
                     case 'b':
                         System.out.println("This a right Answer");
@@ -133,16 +133,16 @@ public class SwitchQuiz {
                                       }
 
                               }
+                              break;
                             case 'b' :
                                 System.out.println("This ia a wrong Answer");break;
                             case 'c', 'd':
                                 System.out.println("This is a wrong Answer");break;
                         }
-                    case 'c':
-                        System.out.println("This is a wrong Answer");break;
+                        break;
 
                 }
-
+            break;
             case 'd' :
                 System.out.println("This is a Wrong Answer");break;
 
