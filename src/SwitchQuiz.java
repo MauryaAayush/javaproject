@@ -140,7 +140,6 @@ public class SwitchQuiz {
                                 System.out.println("This is a wrong Answer");break;
                         }
                         break;
-
                 }
             break;
             case 'd' :
@@ -149,3 +148,9 @@ public class SwitchQuiz {
         }
     }
 }
+
+
+
+
+
+
