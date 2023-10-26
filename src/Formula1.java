@@ -13,9 +13,12 @@ public class Formula1 {
         System.out.print("Enter the value (B) : ");
         short b = input.nextShort();
 
-        int c = (a * a) + (2*a*b) + (b * b);
+       a = (short) (a +b);
+       b = (short) (a - b);
+       a = (short) (a - b);
 
-        System.out.println("Here is (a + b)^2 : " + c);
+        System.out.println(a);
+        System.out.println(b);
 
 
     }
